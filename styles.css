@@ -83,6 +83,15 @@ body {
   font-size: 1em;
 }
 
+/* Chatbot note styling */
+.chatbot p {
+  font-style: italic;
+  color: #ff6347; /* tomato red */
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 /* Dialogflow Messenger customization */
 df-messenger {
   --df-messenger-button-titlebar-color: #ff6347; /* tomato red header */
@@ -92,4 +101,3 @@ df-messenger {
   --df-messenger-bot-message: #f5f5f5;           /* bot bubble */
   --df-messenger-font-color: #333;               /* font color */
 }
-
